@@ -13,7 +13,7 @@ func TestCall(t *testing.T) {
 	list = append(list, 4)
 	list = append(list, 4)
 	list = append(list, 4)
-	Call(list, func(subList []interface{}) {
+	Interface(list, func(subList []interface{}) {
 		t.Log(len(subList))
 	}, 4)
 
